@@ -7,7 +7,6 @@ body {
   font-family: sans-serif;
   padding: 0 1rem;
 }
-
-a .active {
+body .active {
   color: rgb(243, 243, 157);
 }

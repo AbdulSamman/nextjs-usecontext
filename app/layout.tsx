@@ -1,6 +1,8 @@
+"use client";
 import "../styles/site.scss";
 //tailwind
 import "../styles/globals.css";
+import { AppProvider } from "../components/AppContext";
 
 export default function RootLayout({
   children,
@@ -10,7 +12,9 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <AppProvider>{children}</AppProvider>
+      </body>
     </html>
   );
 }

@@ -474,11 +474,11 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
-.mt-4 {
-  margin-top: 1rem;
-}
 .mr-3 {
   margin-right: 0.75rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .bg-neutral-800 {
   --tw-bg-opacity: 1;

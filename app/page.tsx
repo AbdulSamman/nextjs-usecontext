@@ -11,7 +11,7 @@ function Welcome() {
   return (
     <>
       <Header />
-      <div>This is the welcome page for the site"{siteTitle}".</div>;
+      <div>This is the welcome page for the site"{siteTitle}".</div>
     </>
   );
 }
