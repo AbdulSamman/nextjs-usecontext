@@ -4,7 +4,7 @@ export default function Head({ params }: { params: { slug: string } }) {
       <title>Info Site - About</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="About Page" />
+      <meta property="og:title" content="About Page2" />
       <meta property="og:type" content="site" />
       <meta
         property="og:description"
