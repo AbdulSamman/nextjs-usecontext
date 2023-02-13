@@ -10,6 +10,16 @@ body {
 body .active {
   color: rgb(243, 243, 157);
 }
+body .headerArea {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 2rem;
+}
+body .headerArea img {
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+}
 /*!**************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[11].use[3]!./styles/globals.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************/
@@ -514,5 +524,9 @@ video {
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+.text-orange-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
 }
 
