@@ -108,6 +108,7 @@ self.__RSC_MANIFEST={
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/layout": [
+      "static/css/_app-client_styles_globals_css.css",
       "static/css/_app-client_styles_site_scss.css"
     ]
   },
@@ -325,6 +326,15 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_styles_site_scss.css"
+      ]
+    }
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_styles_globals_css.css"
       ]
     }
   }
