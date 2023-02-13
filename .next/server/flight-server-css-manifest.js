@@ -7,6 +7,10 @@ self.__RSC_CSS_MANIFEST={
     "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/info/page": [
       "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/site.scss",
       "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/globals.css"
+    ],
+    "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/about/page": [
+      "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/site.scss",
+      "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/globals.css"
     ]
   },
   "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/layout.tsx": [
