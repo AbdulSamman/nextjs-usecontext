@@ -14,8 +14,11 @@ export default function Head({ params }: { params: { slug: string } }) {
         property="og:image"
         content="https://nextjs-usecontext.vercel.app/images/info-icon.png"
       />
+      {/* 
       <meta property="og:url" content="https://starters.tanguay.eu" />
+     */}
     </>
   );
 }
+
 //automatisch erstellt
