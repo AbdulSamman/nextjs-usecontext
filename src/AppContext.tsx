@@ -1,18 +1,6 @@
 import { createContext, useEffect, useState } from "react";
-import { IJob, ISkill } from "./interfaces";
+import { IAppContext, IAppProvider, IJob, ISkill } from "./interfaces";
 import axios from "axios";
-
-interface IAppContext {
-  siteTitle: string;
-  jobs: IJob[];
-  skills: ISkill[];
-  handleSearch: (e: any) => void;
-  searchText: string;
-}
-
-interface IAppProvider {
-  children: React.ReactNode;
-}
 
 const jobsUrl = "https://edwardtanguay.vercel.app/share/jobs.json";
 const skillsUrl = "https://edwardtanguay.vercel.app/share/skills.json";

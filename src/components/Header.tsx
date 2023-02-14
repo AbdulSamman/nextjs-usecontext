@@ -15,13 +15,13 @@ function Header() {
       <nav className="bg-neutral-800 py-1 px-2 mb-4">
         <Link
           href="/"
-          className={`mr-3 ${activeSegment === null ? "active" : ""}`}
+          className={`mr-3 ${activeSegment === null ? "active" : ""} `}
         >
           Welcome
         </Link>
         <Link
           href="/info"
-          className={`mr-3 ${activeSegment === "info" ? "active" : ""}`}
+          className={`mr-3 ${activeSegment === "info" ? "active" : ""} `}
         >
           Info
         </Link>

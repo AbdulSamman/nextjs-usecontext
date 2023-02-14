@@ -1,5 +1,31 @@
 {
   "__ssr_module_mapping__": {
+    "(app-client)/./src/app/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/layout.tsx": {
       "": {
         "id": "(sc_client)/./src/app/layout.tsx",
@@ -22,32 +48,6 @@
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/info/page.tsx": {
-      "": {
-        "id": "(sc_client)/./src/app/info/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/info/page:app/info/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/info/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/info/page:app/info/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/info/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/info/page:app/info/page"
         ],
         "async": false
       }
@@ -156,6 +156,32 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/info/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/info/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/info/page:app/info/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/info/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/info/page:app/info/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/info/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/info/page:app/info/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/about/page.tsx": {
       "": {
         "id": "(sc_client)/./src/app/about/page.tsx",
@@ -181,32 +207,6 @@
         ],
         "async": false
       }
-    },
-    "(app-client)/./src/app/page.tsx": {
-      "": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -214,6 +214,32 @@
     "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/layout": [
       "static/css/app/layout.css"
     ]
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/styles/globals.css": {
     "default": {
@@ -255,32 +281,6 @@
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/info/page.tsx": {
-    "": {
-      "id": "(app-client)/./src/app/info/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/info/page:app/info/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/info/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/info/page:app/info/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/app/info/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/info/page:app/info/page"
       ],
       "async": false
     }
@@ -493,6 +493,32 @@
       "async": false
     }
   },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/info/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/info/page:app/info/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/info/page:app/info/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/info/page:app/info/page"
+      ],
+      "async": false
+    }
+  },
   "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/about/page.tsx": {
     "": {
       "id": "(app-client)/./src/app/about/page.tsx",
@@ -515,32 +541,6 @@
       "name": "default",
       "chunks": [
         "app/about/page:app/about/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/page.tsx": {
-    "": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
       ],
       "async": false
     }

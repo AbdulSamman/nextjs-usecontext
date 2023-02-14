@@ -14,3 +14,15 @@ export interface ISkill {
   url: string;
   description: string;
 }
+
+export interface IAppContext {
+  siteTitle: string;
+  jobs: IJob[];
+  skills: ISkill[];
+  handleSearch: (e: any) => void;
+  searchText: string;
+}
+
+export interface IAppProvider {
+  children: React.ReactNode;
+}
