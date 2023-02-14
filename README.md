@@ -23,3 +23,6 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 ```bash
 pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
+
+![nextjs-infosite](https://user-images.githubusercontent.com/97021586/218813961-abc6e052-04f4-4ea6-b290-e037fd3283dc.gif)
+
