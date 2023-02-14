@@ -4,7 +4,7 @@
 import React from "react";
 import Header from "../components/Header";
 import { useContext } from "react";
-import { AppContext } from "../components/AppContext";
+import { AppContext } from "../AppContext";
 
 function Welcome() {
   const { siteTitle } = useContext(AppContext);

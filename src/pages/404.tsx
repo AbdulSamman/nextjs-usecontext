@@ -8,7 +8,7 @@ interface Props {
   statusCode?: number;
 }
 
-const Page404: React.FC<Props> = () => {
+const Custom404Page: React.FC<Props> = () => {
   return (
     <div className="sass-error-area text-center">
       <Head>
@@ -24,4 +24,4 @@ const Page404: React.FC<Props> = () => {
   );
 };
 
-export default Page404;
+export default Custom404Page;

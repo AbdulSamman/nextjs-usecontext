@@ -2,7 +2,7 @@
 import "../styles/site.scss";
 //tailwind
 import "../styles/globals.css";
-import { AppProvider } from "../components/AppContext";
+import { AppProvider } from "../AppContext";
 
 export default function RootLayout({
   children,
