@@ -16,4 +16,35 @@ body {
       margin-top: 0.3rem;
     }
   }
+  .pageInfo {
+    .row {
+      .content {
+        .jobs {
+          width: 55%;
+        }
+        .skills {
+          width: 40%;
+        }
+      }
+    }
+  }
+  .loading {
+    height: 75vh;
+    img {
+      position: relative;
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+  animation: fadeIn 2.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

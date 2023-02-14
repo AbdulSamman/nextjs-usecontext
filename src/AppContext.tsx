@@ -1,22 +1,60 @@
-import { createContext } from "react";
+import { createContext, useEffect, useState } from "react";
+import { IJob, ISkill } from "./interfaces";
+import axios from "axios";
 
 interface IAppContext {
   siteTitle: string;
+  jobs: IJob[];
+  skills: ISkill[];
+  handleSearch: (e: any) => void;
+  searchText: string;
 }
 
 interface IAppProvider {
   children: React.ReactNode;
 }
 
+const jobsUrl = "https://edwardtanguay.vercel.app/share/jobs.json";
+const skillsUrl = "https://edwardtanguay.vercel.app/share/skills.json";
+
 export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
+  const [jobs, setJobs] = useState<IJob[]>([]);
+  const [skills, setSkills] = useState<ISkill[]>([]);
+  const [searchText, setSearchText] = useState("");
+
   const siteTitle = "Info Site";
+
+  useEffect(() => {
+    setTimeout(() => {
+      (async () => {
+        const rawJobs = (await axios.get(jobsUrl)).data;
+        setJobs(rawJobs);
+      })();
+    }, 3000);
+  }, []);
+
+  useEffect(() => {
+    (async () => {
+      const rawSkills = (await axios.get(skillsUrl)).data;
+      setSkills(rawSkills);
+    })();
+  }, []);
+
+  const handleSearch = (e: any) => {
+    const _searchText = e.target.value;
+    setSearchText(_searchText);
+  };
 
   return (
     <AppContext.Provider
       value={{
         siteTitle,
+        jobs,
+        skills,
+        searchText,
+        handleSearch,
       }}
     >
       {children}

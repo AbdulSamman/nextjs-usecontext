@@ -1,53 +1,53 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/page.tsx": {
+    "(app-client)/./src/app/layout.tsx": {
       "": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./src/app/layout.tsx",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./src/app/layout.tsx",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./src/app/layout.tsx",
         "name": "default",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       }
     },
-    "(app-client)/./app/layout.tsx": {
+    "(app-client)/./src/app/info/page.tsx": {
       "": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./src/app/info/page.tsx",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/info/page:app/info/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./src/app/info/page.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/info/page:app/info/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./src/app/info/page.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/info/page:app/info/page"
         ],
         "async": false
       }
@@ -156,9 +156,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/about/page.tsx": {
+    "(app-client)/./src/app/about/page.tsx": {
       "": {
-        "id": "(sc_client)/./app/about/page.tsx",
+        "id": "(sc_client)/./src/app/about/page.tsx",
         "name": "",
         "chunks": [
           "app/about/page:app/about/page"
@@ -166,7 +166,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/about/page.tsx",
+        "id": "(sc_client)/./src/app/about/page.tsx",
         "name": "*",
         "chunks": [
           "app/about/page:app/about/page"
@@ -174,10 +174,36 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/about/page.tsx",
+        "id": "(sc_client)/./src/app/about/page.tsx",
         "name": "default",
         "chunks": [
           "app/about/page:app/about/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -185,37 +211,11 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/layout": [
+    "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/layout": [
       "static/css/app/layout.css"
     ]
   },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/page.tsx": {
-    "": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/globals.css": {
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/styles/globals.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -224,7 +224,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/styles/site.scss": {
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/styles/site.scss": {
     "default": {
       "id": "null",
       "name": "default",
@@ -233,9 +233,9 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/layout.tsx": {
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/layout.tsx": {
     "": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./src/app/layout.tsx",
       "name": "",
       "chunks": [
         "app/layout:app/layout"
@@ -243,7 +243,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./src/app/layout.tsx",
       "name": "*",
       "chunks": [
         "app/layout:app/layout"
@@ -251,10 +251,36 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./src/app/layout.tsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/info/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/info/page:app/info/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/info/page:app/info/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/info/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/info/page:app/info/page"
       ],
       "async": false
     }
@@ -467,9 +493,9 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/app/about/page.tsx": {
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/about/page.tsx": {
     "": {
-      "id": "(app-client)/./app/about/page.tsx",
+      "id": "(app-client)/./src/app/about/page.tsx",
       "name": "",
       "chunks": [
         "app/about/page:app/about/page"
@@ -477,7 +503,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/about/page.tsx",
+      "id": "(app-client)/./src/app/about/page.tsx",
       "name": "*",
       "chunks": [
         "app/about/page:app/about/page"
@@ -485,10 +511,36 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/about/page.tsx",
+      "id": "(app-client)/./src/app/about/page.tsx",
       "name": "default",
       "chunks": [
         "app/about/page:app/about/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
