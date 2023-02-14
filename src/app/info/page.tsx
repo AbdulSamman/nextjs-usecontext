@@ -19,7 +19,7 @@ function Info() {
               {jobs.map((job) => {
                 return (
                   <div
-                    className="job bg-gray-700 mb-2 p-2 rounded"
+                    className="job bg-gray-700 mb-2 p-2 rounded hover:bg-blue-800"
                     key={job.id}
                   >
                     {job.title}

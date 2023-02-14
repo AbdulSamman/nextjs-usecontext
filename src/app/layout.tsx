@@ -1,7 +1,6 @@
-"use client";
-import "../styles/site.scss";
-//tailwind
+import Header from "../components/Header";
 import "../styles/globals.css";
+import "../styles/site.scss";
 import { AppProvider } from "../AppContext";
 
 export default function RootLayout({
@@ -10,12 +9,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <head />
-      <body>
-        <AppProvider>{children}</AppProvider>
-      </body>
-    </html>
+    <>
+      <html>
+        <head />
+        <body>
+          <AppProvider>{children}</AppProvider>
+        </body>
+      </html>
+    </>
   );
 }
 //automatisch erstellt

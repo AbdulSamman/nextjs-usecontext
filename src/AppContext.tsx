@@ -1,3 +1,4 @@
+"use client";
 import { createContext, useEffect, useState } from "react";
 import { IAppContext, IAppProvider, IJob, ISkill } from "./interfaces";
 import axios from "axios";

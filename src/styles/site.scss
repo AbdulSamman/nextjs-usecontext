@@ -5,8 +5,9 @@ body {
   padding: 0 1rem;
 
   .active {
-    color: rgb(243, 243, 157);
+    color: rgb(241, 241, 111);
   }
+
   .headerArea {
     display: flex;
     gap: 0.4rem;
@@ -37,6 +38,7 @@ body {
       height: 15rem;
     }
   }
+
   animation: fadeIn 2.5s ease-in;
 }
 
