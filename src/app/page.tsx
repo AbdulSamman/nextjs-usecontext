@@ -11,7 +11,6 @@ function Welcome() {
   const { siteTitle, jobs, skills } = useContext(AppContext);
   return (
     <>
-      <Header />
       <div className="text-current">
         This is the welcome page for the site"{siteTitle}".
       </div>

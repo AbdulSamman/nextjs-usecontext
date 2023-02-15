@@ -5,7 +5,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/AppContext.tsx",
         "name": "",
         "chunks": [
-          "app/info/page:app/info/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
@@ -13,7 +13,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/AppContext.tsx",
         "name": "*",
         "chunks": [
-          "app/info/page:app/info/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
@@ -21,7 +21,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/AppContext.tsx",
         "name": "AppContext",
         "chunks": [
-          "app/info/page:app/info/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
@@ -29,7 +29,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/AppContext.tsx",
         "name": "AppProvider",
         "chunks": [
-          "app/info/page:app/info/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       }
@@ -56,6 +56,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Header.tsx": {
+      "": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -164,32 +190,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/about/page.tsx": {
-      "": {
-        "id": "(sc_client)/./src/app/about/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/about/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/about/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/info/page.tsx": {
       "": {
         "id": "(sc_client)/./src/app/info/page.tsx",
@@ -215,6 +215,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/about/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/about/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/about/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/about/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -229,7 +255,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/AppContext.tsx",
       "name": "",
       "chunks": [
-        "app/info/page:app/info/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
@@ -237,7 +263,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/AppContext.tsx",
       "name": "*",
       "chunks": [
-        "app/info/page:app/info/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
@@ -245,7 +271,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/AppContext.tsx",
       "name": "AppContext",
       "chunks": [
-        "app/info/page:app/info/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
@@ -253,7 +279,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/AppContext.tsx",
       "name": "AppProvider",
       "chunks": [
-        "app/info/page:app/info/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     }
@@ -280,6 +306,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/components/Header.tsx": {
+    "": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -492,32 +544,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/about/page.tsx": {
-    "": {
-      "id": "(app-client)/./src/app/about/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/about/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/app/about/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    }
-  },
   "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/info/page.tsx": {
     "": {
       "id": "(app-client)/./src/app/info/page.tsx",
@@ -540,6 +566,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/info/page:app/info/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/user/Documents/DCI_HTML/nextjs-usecontext/src/app/about/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/about/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/about/page:app/about/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/about/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about/page:app/about/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/about/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/about/page:app/about/page"
       ],
       "async": false
     }

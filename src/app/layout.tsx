@@ -13,6 +13,7 @@ export default function RootLayout({
       <html>
         <head />
         <body>
+          <Header />
           <AppProvider>{children}</AppProvider>
         </body>
       </html>

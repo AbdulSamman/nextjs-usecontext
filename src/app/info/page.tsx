@@ -9,7 +9,6 @@ function Info() {
     useContext(AppContext);
   return (
     <div className="pageInfo">
-      <Header />
       <div>This is the info page for the site "{siteTitle}".</div>
       <div className="row">
         {jobs.length > 0 ? (
